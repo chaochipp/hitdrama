@@ -13,7 +13,7 @@ const inter = Inter({
 const libre_baskerville = Libre_Baskerville({
   subsets: ["latin"],
   style: ["normal", "italic"],
-  weight: ["400", "700"],
+  weight: ["300", "400", "700"],
   variable: "--libre-baskerville",
   display: "swap",
 });
