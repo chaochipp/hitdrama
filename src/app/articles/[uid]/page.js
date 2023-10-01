@@ -65,7 +65,7 @@ export default async function Page({ params }) {
     .getByUID("article", params.uid)
     .catch(() => notFound());
   const latestArticles = await client.getAllByType("article", {
-    limit: 3,
+    limit: 5,
     orderings: [
       { field: "my.article.publishDate", direction: "desc" },
       { field: "document.first_publication_date", direction: "desc" },
